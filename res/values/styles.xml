@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Style.xml v1-10 -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme is the default theme. -->
+    <style name="OPTheme" parent="Sherlock.__Theme.Light">
+        <item name="actionBarStyle">@style/OPActionBar</item>
+    </style>
+
+    <!-- Action Bar Custom -->
+    <style name="OPActionBar" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:background">@drawable/ab_solid_openponte</item>
+        <item name="android:windowBackground">@drawable/ab_solid_openponte</item>
+        <item name="titleTextStyle">@style/OPActionBar.TitleTextStyle</item>
+    </style>
+
+    <!-- ActionBar TextColor custom-->
+    <style name="OPActionBar.TitleTextStyle">
+        <item name="android:textColor">@color/white_op</item>
+    </style>
+
+</resources>
